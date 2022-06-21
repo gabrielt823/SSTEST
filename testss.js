@@ -84,8 +84,8 @@ var pageIndex = [{
     "title": "Personalization Generator",
     "url": "personalized-recommendations/admin-settings"
 },  {
-    "title": "Filtering",
-        "url": "Filtering"
+    "title": "Faceting",
+        "url": "Faceting"
 }, {
     "title": "Sorting",
     "url": "express/sorting"
