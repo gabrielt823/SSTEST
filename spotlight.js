@@ -1,6 +1,6 @@
 // List of pages
 var pageIndex = [{
-    "title": "Angular Templates (v3)",
+    "title": "Templates (v3)",
     "url": "express/angular"
 }, {
     "title": "AJAX Templates (v2)",
@@ -24,7 +24,7 @@ var pageIndex = [{
     "title": "Dashboard",
     "url": "index/dashboard"
 }, {
-    "title": "Visual Merchandising (VM)",
+    "title": "Merchandising",
     "url": "visual-merchandising"
 }, {
     "title": "Field Settings",
@@ -33,7 +33,7 @@ var pageIndex = [{
     "title": "Data Feed",
     "url": "data-feed"
 }, {
-    "title": "Core Fields",
+    "title": "Core Mappings",
     "url": "field-settings/core-mapping"
 }, {
     "title": "Check For New Fields",
@@ -45,8 +45,11 @@ var pageIndex = [{
 //     "url": "data-validation/validate?skip_regen=1"
 // },
  {
-    "title": "Product (Document) Filters",
+    "title": "Product Filters",
     "url": "filters"
+}, {
+    "title": "Saluki Operations Log",
+    "url": "saluki-indexing-log/cluster-aggregated-operations"
 }, {
     "title": "Field Filters",
     "url": "filters/field"
@@ -54,7 +57,7 @@ var pageIndex = [{
     "title": "User Management",
     "url": "users"
 }, {
-    "title": "Admin",
+    "title": "Website Management",
     "url": "admin"
 }, {
     "title": "Website Features",
@@ -75,6 +78,12 @@ var pageIndex = [{
     "title": "Redirects",
     "url": "merchandising/list-redirects"
 }, {
+    "title": "Advanced",
+    "url": "advanced-settings/search-settings"
+}, {
+    "title": "Background Filters",
+    "url": "merchandising/list-background-filters"
+}, {
     "title": "Personalization Settings",
     "url": "personalized-recommendations/global-settings"
 },{
@@ -89,66 +98,69 @@ var pageIndex = [{
 }, {
     "title": "Sorting",
     "url": "express/sorting"
-},{
+}, {
     "title": "Search Insights",
     "url": "pages/view/search"
-},{
+}, {
     "title": "Google Analytics Insights",
     "url": "google-analytics-insights"
 }, {
-    "title": "Zero Results Searches (Reports)",
-    "url": "report/zero-results"
+    "title": "Products",
+    "url": "pages/products"
 }, {
-    "title": "Overall Search Activity (Reports)",
+    "title": "Zero Results Searches",
+    "url": "zero-results-report"
+}, {
+    "title": "Overall Search Activity",
     "url": "report/overall-search"
 }, {
-    "title": "Searches (Reports)",
+    "title": "Searches Report",
     "url": "report/searches"
 }, {
-    "title": "Filters (Reports)",
+    "title": "Filters Report",
     "url": "report/filters"
 },{
-    "title": "Product Recommendations (Report)",
+    "title": "Product Recommendations Report",
     "url": "product-recommendations-report"
 }, {
-    "title": "Keywords (Reports)",
+    "title": "Keywords Reports",
     "url": "report/keywords"
 }, {
-    "title": "Sorts (Reports)",
+    "title": "A&B Experiments",
+    "url": "experiment-report"
+}, { {
+    "title": "Sorts Reports",
     "url": "report/sorts"
 }, {
-    "title": "Intellisuggest Events (Reports)",
+    "title": "Intellisuggest Events Reports",
     "url": "report/tracking-events"
 }, {
     "title": "Expanded Searches",
     "url": "report/expanded-searches"
 }, {
-    "title": "DYM Suggestions (Reports)",
+    "title": "Spell Correction",
+    "url": "spell-correction-insights"
+}, { {
+    "title": "DYM Suggestions",
     "url": "report/dym-suggestions"
 }, {
-    "title": "Indexing Activity (Reports)",
+    "title": "Indexing Activity",
     "url": "report/indexing-activity"
 }, {
-    "title": "Referring Queries (Reports)",
+    "title": "Referring Queries",
     "url": "report/referring-queries"
-}, {
-    "title": "Search (Insights)",
-    "url": "pages/view/search"
 }, {
     "title": "Email Insights (Preview & Send)",
     "url": "insights-email"
 }, {
-    "title": "Products (Insights)",
-    "url": "pages/products"
-}, {
     "title": "Personalized Recommendations",
     "url": "personalized-recommendations"
 }, {
+    "title": "Email Recommendations",
+    "url": "email-recommendations"
+}, {
     "title": "Revenue (Insights)",
     "url": "pages/revenue"
-}, {
-    "title": "Google Analytics",
-    "url": "google-analytics"
 }, {
     "title": "Copy Website",
     "url": "copy-website"
